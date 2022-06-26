@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="./bootstrap/js/bootstrap.js"></script>
+    <title>boostrap assignment</title>
+</head>
+
+<body>
+    <!-- *************************login model ***************************** -->
+    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-black" id="staticBackdropLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-toggle="modal" data-bs-dismiss="modal"
+                        data-bs-target="#Signup"></button>
+                </div>
+                <div class="modal-body  login-model-body">
+                    <button class="btn btn-outline-light text-muted model-gmail-button "><i class="fa fa-envelope"></i>
+                        Continue with Gmail</button>
+                    <button class="btn btn-outline-light  text-muted model-Facebook-button "><i
+                            class="fa fa-facebook-official me-2" aria-hidden="true"></i>Continue with Facebook</button>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <p>Don’t have account? <a href="#" class="login-link">Sign UP</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ***********************************sign up model *************************************** -->
+    <div class="modal fade" id="Signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-black" id="staticBackdropLabel">Signup</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body  login-model-body">
+                    <button class="btn btn-outline-light text-muted model-gmail-button "><i class="fa fa-envelope"></i>
+                        Continue with Gmail</button>
+                    <button class="btn btn-outline-light  text-muted model-Facebook-button "><i
+                            class="fa fa-facebook-official me-2" aria-hidden="true"></i>Continue with Facebook</button>
+                </div>
+                <div class="modal-footer d-flex justify-content-center">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--******************************** section one *********************************** -->
+    <main class="container-fluid">
+        <header class="row ">
+            <div class="col-12">
+                <div class="container d-flex justify-content-end py-3">
+                    <button class="btn text-white me-2" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+                    <button class="btn btn-outline-light border border-1">Create an account</button>
+                </div>
+            </div>
+        </header>
+        <section class="container">
+            <div class="row d-flex justify-content-center mt-3">
+                <div class="col-12 brand-logo ">
+                    <p class="brand-name">e!</p>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center py-3 ps-lg-5">
+                <p class=" col-lg-9 col-10  main-heading  text-white ">Find the best restaurants, cafés, and bars </p>
+            </div>
+            <div class="row d-flex  justify-content-center">
+                <div class="col-lg-3 col-10 ">
+                    <input type="text" class="form-control border border-0 type-location py-2 " placeholder="Please type a location">
+                    <ul class="list-group  ">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                        <li class="list-group-item">A fourth item</li>
+                        <li class="list-group-item">And a fifth one</li>
+                    </ul>
+
+                </div>
+                <div class=" col-lg-5 col-10 ">
+
+                    <div class="input-group ">
+                        <span class="input-group-text bg-white rounded-0 "><i class="fa fa-search"></i></span>
+                        <input type="text" class="form-control border border-0 search-restaurant py-2" placeholder="Search for restaurants">
+                    </div>
+                    <ul class="list-group  ">
+                        <li class="list-group-item  d-flex"> <img src="./img/idli.png" alt="" class="search-image">
+                            <div class="ms-2">
+                                <p class="search-heading m-0">The Big Chill Cakery</p>
+                                <p class="search-para m-0">Sarjapur Road, Bengaluru</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item  d-flex"> <img src="./img/idli.png" alt="" class="search-image">
+                            <div class="ms-2">
+                                <p class="search-heading m-0">Punjabi Rasoi</p>
+                                <p class="search-para m-0">Sarjapur Road, Bengaluru</p>
+                            </div>
+                        </li>
+                        <li class="list-group-item  d-flex"> <img src="./img/idli.png" alt="" class="search-image">
+                            <div class="ms-2">
+                                <p class="search-heading m-0">Punjabi Rasoi</p>
+                                <p class="search-para m-0">Sarjapur Road, Bengaluru</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!-- second section -->
+    <section class="container second-section d-md-flex justify-content-md-center">
+        <div>
+            <div class="row ">
+                <div class="col-12 quick-search-div">
+                    <p class="quick-search-head ">Quick Searches</p>
+                    <p class="quick-search-para pb-3">Discover restaurants by type of meal</p>
+                </div>
+            </div>
+            <!-- first row -->
+            <div class="row d-flex ">
+                <div class="col-md-6 col-lg-4 col-10 cards mt-4">
+                    <img src="./img/idli.png" alt="">
+                    <div class="cards-body ">
+                        <p class="cards-title">Breakfast</p>
+                        <p class="cards-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-10  cards mt-4">
+                    <div class="cards-img-left">
+                        <img src="./img/lunch.png" alt="">
+                    </div>
+                    <div class="cards-body">
+                        <p class="cards-title">Lunch</p>
+                        <p class="cards-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-10 cards mt-4">
+                    <div class="cards-img-left">
+                        <img src="./img/snacks.png" alt="">
+                    </div>
+                    <div class="cards-body">
+                        <p class="cards-title">Snacks</p>
+                        <p class="cards-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+    
+    
+            <!-- second row -->
+    
+    
+            
+                <div class="col-md-6 col-lg-4 col-10 cards mt-4 ">
+                    <img src="./img/dinner.png" alt="">
+                    <div class="cards-body ">
+                        <p class="cards-title">Dinner</p>
+                        <p class="cards-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-10 cards mt-4 ">
+                    <div class="cards-img-left">
+                        <img src="./img/drinks.png" alt="">
+                    </div>
+                    <div class="cards-body">
+                        <p class="cards-title">Drinks</p>
+                        <p class="cards-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 col-10 cards mt-4">
+                    <div class="cards-img-left">
+                        <img src="./img/nightlife.png" alt="">
+                    </div>
+                    <div class="cards-body">
+                        <p class="cards-title">Nightlife</p>
+                        <p class="cards-text">Start your day with exclusive breakfast options</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>

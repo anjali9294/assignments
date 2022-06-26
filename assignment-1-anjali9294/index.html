@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Web 1920</title>
+</head>
+
+<body>
+  <main class="container">
+    <section class="main-section">
+      <!--  *****************navigation bar *************** -->
+      <header class="navbar">
+        <div class="brand">
+          <p class="brand-logo">e!</p>
+        </div>
+        <div>
+          <button class="btn">Login</button>
+          <button class="btn create-account">Create an account</button>
+        </div>
+      </header>
+
+      <!--  *****************main heading *************** -->
+
+      <div class="main-heading">
+        <div class="main-heading-content">
+          <p class="main-heading-content-name">Breakfast Places in Mumbai</p>
+        </div>
+      </div>
+
+      <!--  *****************main content *************** -->
+      <!--  left content in main  -->
+      <div class="main-content">
+        <div class="main-content-section">
+          <div class="left-section">
+            <p class="Filter">Filters</p>
+            <p class="left-section-headings">Select Location</p>
+            <select name="" id="" class="select-location-option">
+              <option value="">Select Location</option>
+            </select>
+            <p class="left-section-headings">Cuisine</p>
+            <input type="checkbox" name="Cuisine" id="cuisine-checkbox" class="cuisine-checkbox" />
+            <label for="" class="labels">North Indian</label><br />
+            <input type="checkbox" name="Cuisine" id="cuisine-checkbox" class="cuisine-checkbox" checked />
+            <label for="" class="labels">South Indian</label><br />
+            <input type="checkbox" name="Cuisine" id="cuisine-checkbox" class="cuisine-checkbox" checked />
+            <label for="" class="labels">Chinese</label><br />
+            <input type="checkbox" name="Cuisine" id="cuisine-checkbox" class="cuisine-checkbox" />
+            <label for="" class="labels">Fast Food</label><br />
+            <input type="checkbox" name="Cuisine" id="cuisine-checkbox" class="cuisine-checkbox" />
+            <label for="" class="labels">Street Food</label><br />
+            <p class="left-section-headings">Cost For Two</p>
+            <input type="radio" name="Cost" id="cost-radio" class="cost-radio" />
+            <label for="" class="labels">Less than 500</label><br />
+            <input type="radio" name="Cost" id="cost-radio" class="cost-radio" />
+            <label for="" class="labels">500 to 1000</label><br />
+            <input type="radio" name="Cost" id="cost-radio" class="cost-radio" />
+            <label for="" class="labels">1000 to 1500</label><br />
+            <input type="radio" name="Cost" id="cost-radio" class="cost-radio" />
+            <label for="" class="labels">1500 to 2000</label><br />
+            <input type="radio" name="Cost" id="cost-radio" class="cost-radio" />
+            <label for="" class="labels">2000+</label><br />
+            <p class=" Filter sort">Sort</p>
+            <input type="radio" name="Sort" id="Sort-radio" class="Sort-radio" />
+            <label for="" class="labels">Price low to high</label><br />
+            <input type="radio" name="Sort" id="Sort-radio" class="Sort-radio" />
+            <label for="" class="labels">Price high to low</label>
+          </div>
+          <!-- right section in  main -->
+          <div class="articles">
+            <!-- first article -->
+            <article class="right-section">
+              <div class="restaurant-detail">
+                <img src="./image/idli.png" alt="" />
+                <div>
+                  <p class="shop-name">The Big Chill Cakery</p>
+                  <p class="place-type">FORT</p>
+                  <p class="place-address">
+                    Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="cuisines-price-section">
+                <div class="cuisines-price-head">
+                  <p>CUISINES:</p>
+                  <p>COST FOR TWO:</p>
+                </div>
+                <div class="cuisines-price-name">
+                  <p>Bakery</p>
+                  <p>₹700</p>
+                </div>
+              </div>
+            </article>
+            <!-- second article -->
+            <article class="right-section">
+              <div class="restaurant-detail">
+                <img src="./image/idli.png" alt="" />
+                <div>
+                  <p class="shop-name">The Bake Shop</p>
+                  <p class="place-type">FORT</p>
+                  <p class="place-address">
+                    Shop 1, Plot D, Samruddhi Complex, Chincholi …
+                  </p>
+                </div>
+              </div>
+              <hr />
+              <div class="cuisines-price-section">
+                <div class="cuisines-price-head">
+                  <p>CUISINES:</p>
+                  <p>COST FOR TWO:</p>
+                </div>
+                <div class="cuisines-price-name">
+                  <p>Bakery</p>
+                  <p>₹700</p>
+                </div>
+            </article>
+            <!-- pagination elements -->
+            <div class="pagination_section">
+              <a href="#" class="page-number">❮</a>
+              <a href="#" title="Algorithm" class="page-number">1</a>
+              <a href="#" title="DataStructure" class="page-number">2</a>
+              <a href="#" title="Languages" class="page-number">3</a>
+              <a href="#" title="Interview" class="active page-number">4</a>
+              <a href="#" title="practice" class="page-number">5</a>
+              <a href="#" class="page-number">❯</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  top: 371px;
+  left: 453px;
+  width: 726px;
+  height: 0px;
+
+  border: 1px solid #dedfe5;
+}
+
+/* ********************* navbar ****************** */
+
+.navbar {
+  background-color: #CE0505;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  
+  padding: 17px 101px;
+}
+
+.brand {
+  height: 52px;
+  width: 52px;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+}
+
+.brand-logo {
+  color: #EB2929;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600; /*semibold*/
+  font-size: 33px;
+}
+
+.btn {
+  border: none;
+  background-color: transparent;
+  color: white;
+  padding:12px  20px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.create-account {
+  border: 1px solid white;
+  border-radius: 3px;
+ 
+}
+/* *********************main heading ****************** */
+.main-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-heading-content {
+  width: 83.4vw;
+}
+.main-heading-content-name {
+  color: #192f60;
+
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+
+  margin: 36px 0;
+}
+/************************* main content *************************** */
+/*************************** left section**************************** */
+.main-content {
+  display: flex;
+  justify-content: center;
+}
+.main-content-section {
+  display: flex;
+  justify-content: left !important;
+
+  width: 83.4vw;
+}
+
+.left-section {
+  width: 260px;
+  height: 682px;
+
+  padding: 17px 26px;
+
+  box-shadow: 0 3px 4px 6px #00000029;
+}
+.Filter {
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Poppins";
+  color: #192f60;
+}
+.left-section-headings {
+  color: #192f60;
+
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 400;
+
+  padding: 10px 0;
+}
+.sort {
+  padding: 15px 0;
+}
+.select-location-option {
+  width: 205px;
+  height: 35px;
+  border: 1px solid #8c96ab;
+  color: #8c96ab;
+  border-radius: 3px;
+}
+
+.labels {
+  color: #8c96ab;
+
+  font-size: 14px;
+}
+
+input[name="Cuisine"] {
+  accent-color: #3a5075;
+}
+input[name="Cost"] {
+  accent-color: #3a5075;
+}
+input[name="Sort"] {
+  accent-color: #3a5075;
+}
+
+/******************************** right section ***********************************/
+
+.right-section {
+  height: 291px;
+  width: 794px;
+
+  margin: 0px 45px 35px;
+  padding: 35px;
+  box-shadow: 0 3px 4px 6px #00000029;
+}
+
+.restaurant-detail {
+  display: flex;
+  justify-content: left;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 25px;
+  margin: 0 41px 35px 0;
+}
+
+.shop-name {
+  color: #192f60;
+
+  font-size: 30px;
+  font-weight: 600; /*semibold */
+  font-family: "Poppins";
+
+  margin-top: 14px;
+}
+.place-type {
+  color: #192f60;
+
+  font-family: "Poppins";
+  font-weight: 500; /*mediam */
+}
+.place-address {
+  color: #636f88;
+
+  font-family: "Poppins";
+  font-weight: 400; /*regular*/
+}
+.cuisines-price-section {
+  display: flex;
+}
+.cuisines-price-head {
+  margin-top: 26px;
+  color: #636f88;
+  height: 69px;
+  font-weight: 400;
+  font-family: "Poppins";
+}
+.cuisines-price-name {
+  margin-top: 26px;
+  color: #192f60;
+  height: 69px;
+  font-weight: 400;
+  font-family: "Poppins";
+  margin-left: 36px;
+}
+
+/************************* pagination position styling **********************************/
+
+/* pagination styling */
+
+.pagination_section a {
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+/* pagination hover effect on active*/
+.pagination_section a:hover {
+  background-color: #8c96ab;
+  color: white;
+}
+a:nth-child(2) {
+  background-color: #8c96ab;
+  color: white;
+}
+
+.page-number {
+  height: 36px;
+  width: 36px;
+  color: #8c96ab;
+  border-radius: 7px;
+  border: 1px solid #8c96ab;
+}
+
+.pagination_section {
+  margin: 35px 0 0 250px;
+}
